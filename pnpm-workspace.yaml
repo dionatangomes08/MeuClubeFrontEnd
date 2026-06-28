@@ -2,6 +2,9 @@ packages:
   - meu-clube
   - lib/api-client-react
 
+allowBuilds:
+  esbuild: true
+
 onlyBuiltDependencies:
   - esbuild
   - msw
