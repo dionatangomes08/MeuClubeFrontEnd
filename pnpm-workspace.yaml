@@ -1,9 +1,8 @@
 packages:
-  - api-server
-  - lib/db
-  - lib/api-zod
+  - meu-clube
   - lib/api-client-react
 
 onlyBuiltDependencies:
   - esbuild
   - msw
+  - unrs-resolver
